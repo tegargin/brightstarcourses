@@ -480,7 +480,7 @@ body {
 }
 
 .products .product-content h3 {
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 
 .products .product-stars {
@@ -494,8 +494,8 @@ body {
 }
 
 .products .product-price {
-  font-size: 1.3rem;
-  font-weight: bold;
+  font-size: 1rem;
+  font-weight: lighter;
 }
 
 .products .product-price span {
@@ -612,6 +612,8 @@ footer .credit a {
   padding: 1.2rem;
   border: 1px solid #666;
   width: 80%;
+  height: 50%;
+
   animation: animateModal 0.5s;
 }
 
@@ -632,6 +634,36 @@ footer .credit a {
   right: 1rem;
 }
 
+.modal-container .close-icon1 {
+  position: absolute;
+  right: 1rem;
+}
+
+.modal-container .close-icon2 {
+  position: absolute;
+  right: 1rem;
+}
+
+.modal-container .close-icon3 {
+  position: absolute;
+  right: 1rem;
+}
+
+.modal-container .close-icon4 {
+  position: absolute;
+  right: 1rem;
+}
+
+.modal-container .close-icon5 {
+  position: absolute;
+  right: 1rem;
+}
+
+.modal-container .close-icon6 {
+  position: absolute;
+  right: 1rem;
+}
+
 .modal-content {
   display: flex;
   flex-wrap: nowrap;
@@ -641,6 +673,7 @@ footer .credit a {
   height: 20rem;
   margin-right: 2rem;
   margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .modal-content p {
