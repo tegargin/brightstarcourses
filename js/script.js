@@ -43,14 +43,54 @@ document.addEventListener("click", function (e) {
 
 // Modal Box
 const itemDetailModal = document.querySelector("#item-detail-modal");
-const itemDetailButtons = document.querySelectorAll(".item-detail-button");
+const itemDetailButton = document.querySelector(".item-detail-button");
+const itemDetailModal1 = document.querySelector("#item-detail-modal1");
+const itemDetailButton1 = document.querySelector(".item-detail-button1");
+const itemDetailModal2 = document.querySelector("#item-detail-modal2");
+const itemDetailButton2 = document.querySelector(".item-detail-button2");
+const itemDetailModal3 = document.querySelector("#item-detail-modal3");
+const itemDetailButton3 = document.querySelector(".item-detail-button3");
+const itemDetailModal4 = document.querySelector("#item-detail-modal4");
+const itemDetailButton4 = document.querySelector(".item-detail-button4");
+const itemDetailModal5 = document.querySelector("#item-detail-modal5");
+const itemDetailButton5 = document.querySelector(".item-detail-button5");
+const itemDetailModal6 = document.querySelector("#item-detail-modal6");
+const itemDetailButton6 = document.querySelector(".item-detail-button6");
 
-itemDetailButtons.forEach((btn) => {
-  btn.onclick = (e) => {
-    itemDetailModal.style.display = "flex";
-    e.preventDefault();
-  };
-});
+itemDetailButton.onclick = (e) => {
+  itemDetailModal.style.display = "flex";
+  e.preventDefault();
+};
+
+itemDetailButton1.onclick = (e) => {
+  itemDetailModal1.style.display = "flex";
+  e.preventDefault();
+};
+
+itemDetailButton2.onclick = (e) => {
+  itemDetailModal2.style.display = "flex";
+  e.preventDefault();
+};
+
+itemDetailButton3.onclick = (e) => {
+  itemDetailModal3.style.display = "flex";
+  e.preventDefault();
+};
+
+itemDetailButton4.onclick = (e) => {
+  itemDetailModal4.style.display = "flex";
+  e.preventDefault();
+};
+
+itemDetailButton5.onclick = (e) => {
+  itemDetailModal5.style.display = "flex";
+  e.preventDefault();
+};
+
+itemDetailButton6.onclick = (e) => {
+  itemDetailModal6.style.display = "flex";
+  e.preventDefault();
+};
 
 // klik tombol close modal
 document.querySelector(".modal .close-icon").onclick = (e) => {
@@ -58,6 +98,35 @@ document.querySelector(".modal .close-icon").onclick = (e) => {
   e.preventDefault();
 };
 
+document.querySelector(".modal .close-icon1").onclick = (e) => {
+  itemDetailModal1.style.display = "none";
+  e.preventDefault();
+};
+
+document.querySelector(".modal .close-icon2").onclick = (e) => {
+  itemDetailModal2.style.display = "none";
+  e.preventDefault();
+};
+
+document.querySelector(".modal .close-icon3").onclick = (e) => {
+  itemDetailModal3.style.display = "none";
+  e.preventDefault();
+};
+
+document.querySelector(".modal .close-icon4").onclick = (e) => {
+  itemDetailModal4.style.display = "none";
+  e.preventDefault();
+};
+
+document.querySelector(".modal .close-icon5").onclick = (e) => {
+  itemDetailModal5.style.display = "none";
+  e.preventDefault();
+};
+
+document.querySelector(".modal .close-icon6").onclick = (e) => {
+  itemDetailModal6.style.display = "none";
+  e.preventDefault();
+};
 // klik di luar modal
 window.onclick = (e) => {
   if (e.target === itemDetailModal) {
